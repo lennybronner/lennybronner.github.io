@@ -78,7 +78,7 @@ Since the first principal component is so much larger than the second, I start b
 <div align="center">
     <figure>
     <img src="/assets/images/{{ page.pic_folder }}/pca_dim_1.png">
-    <figcaption style="text-align:center">Figure 2: Dimension 1</figcaption>
+    <figcaption style="text-align:center">Figure 2: Dimension 1 of roll call</figcaption>
     </figure>
 </div>
 
@@ -95,7 +95,7 @@ It is interesting to see in figure 2 that Labour’s position on a “soft Brexi
 <div align="center">
     <figure>
     <img src="/assets/images/{{ page.pic_folder }}/pca_dim_1_and_2.png">
-    <figcaption style="text-align:center">Figure 3: Dimension 1 & 2</figcaption>
+    <figcaption style="text-align:center">Figure 3: Dimensions 1 and 2 of roll call</figcaption>
     </figure>
 </div>
 
@@ -106,7 +106,7 @@ In figure 4, I plot the second principal component in isolation, but it is not o
 <div align="center">
     <figure>
     <img src="/assets/images/{{ page.pic_folder }}/pca_dim_2.png">
-    <figcaption style="text-align:center">Figure 4: Dimension 2</figcaption>
+    <figcaption style="text-align:center">Figure 4: Dimension 2 of roll call</figcaption>
     </figure>
 </div>
 
@@ -122,7 +122,7 @@ While k-means is guaranteed to converge, we have no guarantees on it finding the
 <div align="center">
     <figure>
     <img src="/assets/images/{{ page.pic_folder }}/pca_dim_1_and_2_w_kmeans.png">
-    <figcaption style="text-align:center">Figure 5: kmeans</figcaption>
+    <figcaption style="text-align:center">Figure 5: Dimensions 1 and 2 with kmeans</figcaption>
     </figure>
 </div>
 
@@ -133,7 +133,7 @@ Another way to look at our data would be to look at ideological differences in t
 <div align="center">
     <figure>
     <img src="/assets/images/{{ page.pic_folder }}/alternatives_pca_dim_1.png">
-    <figcaption style="text-align:center">Figure 6: Options Dim 1</figcaption>
+    <figcaption style="text-align:center">Figure 6: Dimension 1 of the Brexit options</figcaption>
     </figure>
 </div>
 
@@ -147,13 +147,13 @@ Finally, I was curious what would happen if I plotted the first and second princ
 
 <div align="center">
     <figure>
-    <img src="/assets/images/{{ page.pic_folder }}/alternatives_pca_dim_1_and_2.png">    <figcaption style="text-align:center">Figure 7: Options Dim 2</figcaption>
+    <img src="/assets/images/{{ page.pic_folder }}/alternatives_pca_dim_1_and_2.png">    <figcaption style="text-align:center">Figure 7: Dimension 2 of the Brexit options</figcaption>
     </figure>
 </div>
 
 It is not obvious to me what this second dimension would represent. Furthermore, you can see the presence of a horseshoe, which is evidence that the second dimension is simply a folded function of the first dimension. This suggests that the second dimension isn’t particularly meaningful. I don’t fully understand why the horseshoe appears in these cases, but you can read more [here](http://statweb.stanford.edu/~susan/papers/horseshoes6.pdf), [here](https://stats.stackexchange.com/questions/158552/what-is-the-horseshoe-effect-and-or-the-arch-effect-in-pca-correspondence) and [here](http://ordination.okstate.edu/PCA.htm). If you have a good understanding of why this effect appears, please send me an email.
 
-Conclusion
+## Conclusion
 Scaling the indicative votes gave us interesting insights into the different camps of the Brexit argument. This was especially true for the factions that exist in the Conservative party between the government loyalists, the hard Brexiteers and the soft Brexiteers. Furthermore, we could see two distinct camps in the opposition between the Labour Party, who generally support leaving but want a second referendum, and the smaller opposition parties like the SNP and the Liberal Democrats who want to revoke article 50.
  
 This kind of exploratory analysis generally leads to more unanswered questions. Some of those I find most compelling are what the second dimension could represent and whether there is a better interpretation for the light blue cluster that appears in k-means.
