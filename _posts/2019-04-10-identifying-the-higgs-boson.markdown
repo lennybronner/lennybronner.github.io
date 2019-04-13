@@ -3,11 +3,8 @@ layout: post
 title:  "Identifying the Higgs Boson"
 date:   2019-04-10 22:23:10 -0400
 categories: post
+pic_folder: higgs
 ---
-
-<p align="center">
-  <img src="/assets/images/higgs.jpg">
-</p>
 
 With guidance from Ariel Schwartzman and Ben Nachmen from the Stanford Linear Accelerator (SLAC) and the European Organization for Nuclear Research (CERN) I worked on using machine learning to help them identify the Higgs Boson from jet pull energy colourflow images.
 
