@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PCA and Brexit"
-#date: 
+date: 2019-04-13 14:02:10 -0400 
 categories: post
 pic_folder: pca_brexit
 ---
