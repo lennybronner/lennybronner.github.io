@@ -1,19 +1,14 @@
 ---
-layout: default
+layout: page
+title: projects
+permalink: /projects/
+order: 2
 ---
 
-<div class="page-heading-parent">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
+<div>
   {%- if site.posts.size > 0 -%}
-  <hr style="background-color: lightgray; height: 1px; border: 0; margin: 20px 0px 20px 0px"/>
-    <h3 class="post-list-heading">Here are some of my most recent projects and posts </h3>
     <ul class="post-list">
-      {%- for post in site.posts limit:3 -%}
+      {%- for post in site.posts-%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
@@ -42,5 +37,4 @@ layout: default
     </ul>
 
   {%- endif -%}
-
 </div>

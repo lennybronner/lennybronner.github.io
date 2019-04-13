@@ -17,6 +17,6 @@ Generally, I’m interested in natural language processing and quantitive text a
 
 I have an M.Sc in Statistics and a B.Sc in Mathematical and Computational Science, both from Stanford University.
 
-If you want to learn more about me or have a cool project you’d like to collaborate on, please feel free to send me an email.
+If you want to learn more about me or have a cool project you’d like to collaborate on, please feel free to send me an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
 Click [here](/assets/pdfs/CV.pdf) to download my CV.
