@@ -16,6 +16,14 @@ p, ul, ol {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.page-link {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.footer-col {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .page-heading-parent h1 {
     text-align: center;
     @include relative-font-size(2.625); // 16 * 2.625 = 42px
