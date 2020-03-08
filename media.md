@@ -20,6 +20,8 @@ On occasion, I also appear on our livestream. Here are a few examples:
     <video width="320" height="240" controls>
     <source src="/assets/video/super_tuesday_model.mp4" type="video/mp4">
     </video>
+</div>
+<div align="center">
     <video width="320" height="240" controls>
     <source src="/assets/video/super_tuesday_va_nc.mp4" type="video/mp4">
     </video>
