@@ -17,7 +17,7 @@ Sometimes I help write or contribute towards stories.
 On occasion, I also appear on our livestream. Here are a few examples:
 
 <div align="center">
-    <video>
+    <video width="320" height="240" controls>
     <source src="/assets/video/super_tuesday_model.mp4" type="video/mp4">
     </video>
 </div>
