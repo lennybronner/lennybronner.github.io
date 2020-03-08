@@ -7,7 +7,15 @@ order: 1
 ---
 <h1 align="center"> Lenny Bronner </h1>
 
-I’m a data scientist at The Washington Post. At The Post, I work with stakeholders from across our newsroom and marketing team to build products and develop algorithms. These include
+I’m a senior data scientist at The Washington Post. At The Post, I'm a member of the newsroom engineering team, where we are currently focused on building elections infrastructure. The things I work on include:
+
+* building live forecasting models for election nights using partial data. You can read blogposts about my general election model [here](https://washpost.engineering/2019/11/01/how-the-washington-post-estimates-turnout-on-election-nights/) and my primary model [here](https://washpost.engineering/2020/02/29/how-the-washington-post-estimates-outstanding-votes-during-primaries/).
+
+* parsing and processing voterfile data. I also build tools to help journalists access the data and find interesting story leads. Along with Nick Diakopoulos and Madison Dong, I have co-authored a paper on this topic, which you can read [here](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/d/53/files/2020/02/CJ_2020_paper_28.pdf).
+
+* building and maintaining our Federal Election Commission campaign finance database.
+
+Previously I was on The Post's Big Data and Personalization Team. There I worked with stakeholders from across our newsroom and marketing team to build products and develop algorithms. My main focus was on trying to integrate artificial intelligence into newsroom processes. Projects I worked on included:
 
 * algorithmic metadata tagging for articles, including topic modeling to support our recommendation and ad targeting services
 
@@ -15,7 +23,7 @@ I’m a data scientist at The Washington Post. At The Post, I work with stakehol
 
 * unstructured data search tools that let journalists quickly search over multiple data sources to find relevant ledes
 
-Generally, I’m interested in natural language processing and quantitive text analysis. Prior to joining The Post, I worked for Sidewire, a San Francisco-based media startup that sadly no longer exists.
+Generally, I’m interested in natural language processing and quantitive text analysis, though my current focus lies with election related data. Prior to joining The Post, I was a part-time data scientist at Sidewire, a San Francisco-based media startup that sadly no longer exists. My main focuses at Sidewire were recommender engines and network analyses of users.
 
 I have an M.Sc in Statistics and a B.Sc in Mathematical and Computational Science, both from Stanford University.
 
