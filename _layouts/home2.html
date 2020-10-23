@@ -43,10 +43,4 @@ layout: default
 
   {%- endif -%}
   
-  {% assign sorted_pages = site.pages | sort:"order" %}
-  {% for page in sorted_pages %}
-    {% if page.title %}
-    <h3 align="center"> <a href="{{ page.url | prepend: site.baseurl }}"> Click here to see all projects </a></h3>
-    {% endif %}
-  {% endfor %}
 </div>

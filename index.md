@@ -9,7 +9,7 @@ order: 1
 
 I’m a senior data scientist at The Washington Post. At The Post, I'm a member of the newsroom engineering team, where we are currently focused on building elections infrastructure. The things I work on include:
 
-* building live forecasting models for election nights using partial data. You can read blogposts about my general election model [here](https://washpost.engineering/2019/11/01/how-the-washington-post-estimates-turnout-on-election-nights/) and my primary model [here](https://washpost.engineering/2020/02/29/how-the-washington-post-estimates-outstanding-votes-during-primaries/).
+* building live forecasting models for election nights using partial data. You can read blogposts about the model we used for the general election in Virginia in 2019 [here](https://washpost.engineering/2019/11/01/how-the-washington-post-estimates-turnout-on-election-nights/), the model we used for the 2020 Democratic primary here [here](https://washpost.engineering/2020/02/29/how-the-washington-post-estimates-outstanding-votes-during-primaries/) and the model we built for the 2020 general election [here](https://s3.us-east-1.amazonaws.com/elex-models-prod/2020-general/write-up/election_model_writeup.pdf).
 
 * parsing and processing voterfile data. I also build tools to help journalists access the data and find interesting story leads. Along with Nick Diakopoulos and Madison Dong, I co-authored a paper on this topic, which you can read [here](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/d/53/files/2020/02/CJ_2020_paper_28.pdf).
 
