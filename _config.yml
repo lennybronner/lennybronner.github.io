@@ -18,7 +18,7 @@ email: lenny.bronner@gmail.com
 description: Data Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lbronner
+twitter_username: lennybronner
 github_username:  lennybronner
 linkedin_username: leonard-bronner
 show_excerpts: true
