@@ -34,7 +34,7 @@ A &= X^TX \\
 \end{align}
 $$
 
-Since $$U$$ is an orthonormal matrix.
+Since $$U$$ is an orthonormal matrix. (many thanks to Ben Baer for pointing out a small mistake here)
 
 Notice that this is the eigendecomposition of $$A$$ where the columns of $$V$$ are the eigenvectors and the elements of $$S^2$$ are the eigenvalues. We call these the principal components of $$X$$.
 
