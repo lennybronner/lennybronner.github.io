@@ -23,18 +23,18 @@ We define $$A$$ as $$X^TX$$ which we recognize as being proportional to the cova
 
 $$ A = X^TX$$
 
-Applying the Singular Value Decomposition to $$A$$ we get:
+Applying the Singular Value Decomposition to $$X$$ we get:
 
 $$
 \begin{align}
 A &= X^TX \\
 &= (USV^T)^T (USV^T) \\
 &= VSU^TUSV^T \\
-&= VS^2U^T
+&= VS^2V^T
 \end{align}
 $$
 
-Since $$U$$ and $$V$$ are orthogonal to each other.
+Since $$U$$ is an orthonormal matrix.
 
 Notice that this is the eigendecomposition of $$A$$ where the columns of $$V$$ are the eigenvectors and the elements of $$S^2$$ are the eigenvalues. We call these the principal components of $$X$$.
 
