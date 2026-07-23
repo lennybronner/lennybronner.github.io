@@ -16,8 +16,23 @@
 title: Lenny Bronner
 email: lenny.bronner@gmail.com
 description: Data Scientist
+author:
+  name: Lenny Bronner
+  twitter: lennybronner
+
+# Read by jekyll-seo-tag. Distinct from the *_username keys below,
+# which _includes/header.html uses to build the nav links.
+twitter:
+  username: lennybronner
+  card: summary
+social:
+  name: Lenny Bronner
+  links:
+    - https://twitter.com/lennybronner
+    - https://github.com/lennybronner
+    - https://www.linkedin.com/in/leonard-bronner
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lennybronner.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lennybronner
 github_username:  lennybronner
 linkedin_username: leonard-bronner
@@ -27,6 +42,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# jekyll-seo-tag reads `image` from page front matter, not from a
+# top-level site key, so set a site-wide default here.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/lenny_bronner_headshot.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

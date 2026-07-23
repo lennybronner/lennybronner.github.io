@@ -4,29 +4,21 @@
 layout: home2
 permalink: /
 order: 1
+description: Data scientist working on elections, forecasting, and newsroom data.
 ---
 <h1 align="center"> Lenny Bronner </h1>
 
-I’m a senior data scientist at The Washington Post. At The Post, I'm a member of the newsroom engineering team, where we are currently focused on building elections infrastructure. The things I work on include:
+I'm a data scientist who works on elections, media, and the messy real-world data that both produce. Most of my career has been spent building statistical systems that have to work in public, under deadline, and often on incomplete data.
 
-* building live forecasting models for election nights using partial data. You can read blogposts about the model we used for the general election in Virginia in 2019 [here](https://washpost.engineering/2019/11/01/how-the-washington-post-estimates-turnout-on-election-nights/), the model we used for the 2020 Democratic primary here [here](https://washpost.engineering/2020/02/29/how-the-washington-post-estimates-outstanding-votes-during-primaries/) and the model we built for the 2020 general election [here](https://s3.us-east-1.amazonaws.com/elex-models-prod/2020-general/write-up/election_model_writeup.pdf).
+The work tends to fall into a few areas:
 
-* parsing and processing voterfile data. I also build tools to help journalists access the data and find interesting story leads. Along with Nick Diakopoulos and Madison Dong, I co-authored a paper on this topic, which you can read [here](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/d/53/files/2020/02/CJ_2020_paper_28.pdf).
+* **Election data and modeling**. Live forecasting from partial returns, polling averages, voter registration data, and estimating how different groups actually voted. I spent nearly a decade doing this at The Washington Post, where I built their first live election night model and later led the team that rebuilt it.
+* **Data infrastructure for newsrooms**. Pipelines and tools that let journalists work with voter files, campaign finance filings, and other public data without needing a data scientist in the room. Some of that work contributed to reporting that won the 2022 Pulitzer Prize for Public Service.
+* **Personalization and online learning**. Recommendation, metadata tagging, and production bandit systems for deciding what to show readers and when, including push notifications and recirculation.
+* **Explaining any of the above**. I've written about our methods, presented them at conferences, and gone on live television to explain a forecast while it was running.
 
-* building and maintaining our Federal Election Commission campaign finance database.
+I have an M.Sc in Statistics and a B.Sc in Mathematical and Computational Science, both from Stanford.
 
-Previously I was on The Post's Big Data and Personalization Team. There I worked with stakeholders from across our newsroom and marketing team to build products and develop algorithms. My main focus was on trying to integrate artificial intelligence into newsroom processes. Projects I worked on included:
+My [CV]({{ "/assets/pdfs/CV.pdf" | relative_url }}) has the full detail — roles, methods, publications, and talks.
 
-* algorithmic metadata tagging for articles, including topic modeling to support our recommendation and ad targeting services
-
-* text-based image recommendation, to allow journalists to quickly find relevant images for their stories
-
-* unstructured data search tools that let journalists quickly search over multiple data sources to find relevant ledes
-
-Generally, I’m interested in natural language processing and quantitive text analysis, though my current focus lies with election related data. Prior to joining The Post, I was a part-time data scientist at Sidewire, a San Francisco-based media startup that sadly no longer exists. My main focuses at Sidewire were recommender engines and network analyses of users.
-
-I have an M.Sc in Statistics and a B.Sc in Mathematical and Computational Science, both from Stanford University.
-
-If you want to learn more about me or have a cool project you’d like to collaborate on, please feel free to send me an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-
-Click [here](/assets/pdfs/CV.pdf) to download my CV.
+If you have a project you'd like to talk about, email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
